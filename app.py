@@ -9,7 +9,14 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_PATH = Path(__file__).parent /"API_Logistics_Streamlit.csv"
+BASE_DIR = Path(__file__).resolve().parent
+
+csv_files = list(BASE_DIR.glob("*.csv")) + list((BASE_DIR / "data").glob("*.csv"))
+
+if not csv_files:
+    raise FileNotFoundError("No CSV dataset found in the project.")
+
+DATA_PATH = csv_files[0]
 
 @st.cache_data(show_spinner=False)
 def load_data(path: Path) -> pd.DataFrame:

@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_PATH = Path(__file__).parent / "data" / "APL_Logistics.csv"
+DATA_PATH = Path(__file__).parent /"API_Logistics_Streamlit.csv"
 
 @st.cache_data(show_spinner=False)
 def load_data(path: Path) -> pd.DataFrame:

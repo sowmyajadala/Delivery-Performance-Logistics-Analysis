@@ -1,0 +1,32 @@
+QUICKEST SUBMISSION STEPS
+
+1) GITHUB
+- Create a new GitHub repository.
+- Upload every file/folder from this project folder.
+- Keep app.py and requirements.txt in the repository root.
+- Keep APL_Logistics.csv inside the data folder.
+
+2) STREAMLIT
+- Open Streamlit Community Cloud.
+- Click Create app / New app.
+- Choose your GitHub repository.
+- Main file path: app.py
+- Deploy.
+- Copy the public Streamlit URL for the Streamlit Browser Link field.
+
+3) RESEARCH PAPER
+- Upload report/Research_Paper_Delivery_Performance.pdf to Google Drive.
+- Set General access to Anyone with the link -> Viewer.
+- Copy that share link for the Research Paper Link field.
+
+4) VIDEO
+- Record the dashboard using video_demo_script.txt.
+- Upload the video to Google Drive.
+- Set Anyone with the link -> Viewer.
+- Paste that Drive share link into the Video Link field.
+
+5) SUBMISSION FIELDS
+- GitHub repo link -> your GitHub repository URL
+- Research paper link -> Google Drive share link of Research_Paper_Delivery_Performance.pdf
+- Streamlit browser link -> deployed Streamlit public URL
+- Video link -> Google Drive share link of your recorded demo
